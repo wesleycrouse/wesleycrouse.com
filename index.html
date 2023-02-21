@@ -61,13 +61,6 @@
               ><span class="label">LinkedIn</span></a
             >
           </li>		  	  
-		  <li>
-            <a
-              href="https://www.twitter.com/wescrouse"
-              class="icon brands fa-twitter"
-              ><span class="label">Twitter</span></a
-            >
-          </li>
         </ul>
       </footer>
     </section>
@@ -99,17 +92,11 @@
 			  <b><a
                 href="https://stephenslab.uchicago.edu/"
                 >Matthew Stephens</a
-              ></b> in the department of Human Genetics at the University of Chicago.
-			  I received my PhD in Bioinformatics and 
-			  Computational Biology from UNC Chapel Hill. My experience is in statistical genetics, and my research includes developing 
-			  statistical approaches for genetic association and analyzing gene expression in model organisms and humans.  
-			  I have expertise in causal inference, Bayesian nonparametric approaches, Bayesian 
-			  model selection, and generalized linear models, with implementation 
-			  in the R and Stan statistical computing languages.
+              ></b> 
+			  in the department of Human Genetics at the University of Chicago. I received my PhD in Bioinformatics and Computational Biology from UNC Chapel Hill. My experience is in statistical genetics, and my research includes developing statistical methods to prioritize causal genes associated with human diseases and other biomedically-relevant traits. I have expertise in causal inference, Bayesian nonparametric models, Bayesian model selection, and generalized linear models, with implementation in the R and Stan statistical computing languages.
             </p>
             <p>
-              I am interested in developing and applying cutting-edge methods to 
-			  analyze large and complex biomedical datasets. My current research involves developing and applying statistical methods for prioritizing causal genes and tissues in transcriptome-wide association studies. 
+              I am interested in using cutting-edge statistical methods to positively impact human health. I am currently seeking my next challenge... <b><a href="#four">could it be with you?</a></b>
             </p>
           </div>
         </section>
@@ -129,6 +116,26 @@
 			  <article>
 			  </article>
               <article>
+                <a href="https://github.com/xinhe-lab/ctwas" class="image"
+                  ><img src="images/cTWAS.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>cTWAS</h4>
+                  <p>
+                    <b><a
+					  href="https://github.com/xinhe-lab/ctwas"
+                      >causal-TWAS (cTWAS)</a
+					></b>
+					is an integrative method for identifying causal genes at GWAS loci using eQTL data. Transcriptome-wide association studies (TWAS) use eQTL to infer gene expression in a GWAS cohort and test (inferred) gene expression for association with a trait. TWAS is useful for nominating candidate genes but prone to false positives due to genetic confounding. Genetic confounding occurs when non-causal genes are linked with causal variants or genes that affect the trait through another mechanism. Motivated by causal inference, cTWAS conditions on genetic confounders, jointly modeling sparse effects of all nearby genes and variants in an extended fine-mapping framework. cTWAS substantially reduces false positives relative to alternative methods, making it a reliable tool for linking variants to genes. The 
+					<b><a
+					  href="https://doi.org/10.1534/genetics.120.303393"
+                      >manuscript</a
+					></b>
+					for cTWAS is under review.
+                  </p>
+                </div>
+              </article>
+			  <article>
                 <a href="https://github.com/wesleycrouse/bmediatR" class="image"
                   ><img src="images/bmediatR.png" alt=""
                 /></a>
@@ -142,13 +149,17 @@
 					is a Bayesian model selection approach for mediation analysis.
 					It explores different causal relationships between a dependent 
 					variable (<b>Y</b>), an independent variable (<b>X</b>), and a 
-					potential mediator variable (<b>M</b>). Unlike the Sobel test,
-					this approach distinguishes between partial and complete 
+					potential mediator variable (<b>M</b>). This approach distinguishes between partial and complete 
 					mediation, and it accommodates grouped predictors in <b>X</b>. 
 					Grouped predictors are useful for haplotype-based analyses and 
 					other cases when the independent variable is multidimensional, 
 					such as modeling multiple variants or non-additive effects. The 
-					manuscript for this approach is currently under development.
+					<b><a
+					  href="https://doi.org/10.1534/genetics.120.303393"
+                      >manuscript</a
+					></b>
+					for bmediatR was published in the May 2022 issue 
+					of PLOS <i>Genetics</i>.
                   </p>
                 </div>
               </article>
@@ -163,7 +174,7 @@
 					  href="https://github.com/wesleycrouse/TIMBR"
                       >TIMBR</a
 					></b>
-					is a Bayesian nonparametric approach for haplotype-based 
+					is a Bayesian nonparametric model for haplotype-based 
 					genetic association. It partitions haplotypes into a potentially 
 					smaller number of functional alleles with shared trait effects. 
 					This improves haplotype effect estimation and provides useful information 
@@ -175,7 +186,7 @@
 					  href="https://doi.org/10.1534/genetics.120.303393"
                       >manuscript</a
 					></b>
-					for this approach was highlighted in the December 2020 issue 
+					for TIMBR was highlighted in the December 2020 issue 
 					of <i>Genetics</i>.
                   </p>
                 </div>
@@ -258,17 +269,12 @@
 			  <b><a
                 href="mailto:wesleycrouse@gmail.com"
                 >email</a
-              ></b>, 
+              ></b> or
 			  connect with me on 
 			  <b><a
                 href="https://www.linkedin.com/in/wesleycrouse"
                 >LinkedIn</a
-              ></b>, 
-			  or direct message me on 
-			  <b><a
-                href="https://www.twitter.com/wescrouse"
-                >Twitter</a
-              ></b>. 
+              ></b>.
 			  I look forward to hearing from you!
 			</p>
           </div>
@@ -279,7 +285,7 @@
       <section id="footer">
         <div class="container">
           <ul class="copyright">
-            <li>&copy; 2020 Wesley Crouse. All rights reserved.</li>
+            <li>&copy; 2023 Wesley Crouse. All rights reserved.</li>
             <li>
               Website design by <a href="https://www.lyda.me">Lyda Media</a>
             </li>
